@@ -1,5 +1,7 @@
 # B2B outbound benchmarks (ReplyLead open data)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22920956.svg)](https://doi.org/10.5281/zenodo.22920956)
+
 First-party datasets on B2B cold email outcomes, the mail providers that receive business email, and what outbound providers charge. Each dataset is published with its method on replylead.com; this repository mirrors the files so they are easy to cite and reuse.
 
 | Dataset | Files in `data/` | Source page and method |
@@ -21,7 +23,9 @@ The compilations are licensed under [CC BY 4.0](https://creativecommons.org/lice
 
 ## Citation
 
-ReplyLead (2026). *B2B outbound benchmarks*. https://github.com/replylead/b2b-outbound-benchmarks. See `CITATION.cff` for machine-readable metadata.
+ReplyLead (2026). *B2B outbound benchmarks* (Version v2026.09) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22920956
+
+See `CITATION.cff` for machine-readable metadata. Archived copies: [Zenodo](https://doi.org/10.5281/zenodo.22920956) (DOI, every release) and [Kaggle](https://www.kaggle.com/datasets/markglazer/b2b-cold-email-and-outbound-benchmarks-2026).
 
 ## Updates
 

@@ -1,0 +1,15 @@
+{
+  "upload_type": "dataset",
+  "title": "B2B outbound benchmarks",
+  "creators": [{"name": "ReplyLead"}],
+  "description": "First-party datasets on B2B cold email outcomes by recipient mail provider (327,273 contacted leads, 97 campaigns), the receiving mail provider for about 10.2M domains in B2B contact data, a cold email reply-rate benchmark (429,763 sends), B2B lead generation prices, price history and contract terms for 14 providers, and in-house seller cost for the US and Canada from government wage data. Each dataset's method, denominators and limitations are published on its source page at replylead.com.",
+  "license": "cc-by-4.0",
+  "keywords": ["cold email", "email deliverability", "Microsoft 365", "Google Workspace", "email security gateway", "B2B lead generation pricing", "SDR cost"],
+  "related_identifiers": [
+    {"identifier": "https://replylead.com/cold-email-reply-rates-by-email-provider.html", "relation": "isDocumentedBy"},
+    {"identifier": "https://replylead.com/b2b-email-provider-market-share.html", "relation": "isDocumentedBy"},
+    {"identifier": "https://replylead.com/cold-email-benchmarks.html", "relation": "isDocumentedBy"},
+    {"identifier": "https://replylead.com/best-b2b-lead-generation-companies.html", "relation": "isDocumentedBy"},
+    {"identifier": "https://replylead.com/sales-outsourcing.html", "relation": "isDocumentedBy"}
+  ]
+}
