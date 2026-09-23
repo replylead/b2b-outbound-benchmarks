@@ -1,0 +1,170 @@
+{
+ "name": "Published price history of B2B lead generation providers, 2024-2026",
+ "publisher": "ReplyLead",
+ "license": "CC BY 4.0",
+ "url": "https://replylead.com/best-b2b-lead-generation-companies.html#price-changes",
+ "observations": [
+  {
+   "provider": "ReplyLead",
+   "plan_or_unit": "Infrastructure, lowest tier (plus agreed revenue share)",
+   "observed_date": "2026-08-01",
+   "published_price_usd": 2023,
+   "billing_period": "month",
+   "source_type": "ReplyLead published page",
+   "evidence_url": "https://replylead.com/pricing.html"
+  },
+  {
+   "provider": "ReplyLead",
+   "plan_or_unit": "Infrastructure, lowest tier (plus agreed revenue share)",
+   "observed_date": "2026-09-22",
+   "published_price_usd": 2023,
+   "billing_period": "month",
+   "source_type": "ReplyLead published page",
+   "evidence_url": "https://replylead.com/pricing.html"
+  },
+  {
+   "provider": "OutreachBloom",
+   "plan_or_unit": "Managed cold email, entry plan",
+   "observed_date": "2024-06-13",
+   "published_price_usd": 1000,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20240613084234/https://outreachbloom.com/pricing/"
+  },
+  {
+   "provider": "OutreachBloom",
+   "plan_or_unit": "Managed cold email, entry plan",
+   "observed_date": "2024-12-14",
+   "published_price_usd": 1500,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20241214203857/https://outreachbloom.com/pricing/"
+  },
+  {
+   "provider": "OutreachBloom",
+   "plan_or_unit": "Managed cold email, entry plan",
+   "observed_date": "2025-12-16",
+   "published_price_usd": 1900,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20251216034826/https://outreachbloom.com/pricing/"
+  },
+  {
+   "provider": "OutreachBloom",
+   "plan_or_unit": "Managed cold email, entry plan",
+   "observed_date": "2026-09-22",
+   "published_price_usd": 2400,
+   "billing_period": "month",
+   "source_type": "Live page, US connection",
+   "evidence_url": "https://outreachbloom.com/pricing/"
+  },
+  {
+   "provider": "Cleverly",
+   "plan_or_unit": "LinkedIn outreach, lowest published plan",
+   "observed_date": "2024-06-22",
+   "published_price_usd": 297,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20240622193501/https://www.cleverly.co/"
+  },
+  {
+   "provider": "Cleverly",
+   "plan_or_unit": "LinkedIn outreach, lowest published plan",
+   "observed_date": "2026-09-22",
+   "published_price_usd": 397,
+   "billing_period": "month",
+   "source_type": "Live page, US connection",
+   "evidence_url": "https://www.cleverly.co/linkedin-lead-generation"
+  },
+  {
+   "provider": "CIENCE",
+   "plan_or_unit": "Recurring core after the $5,000 setup",
+   "observed_date": "2025-10-05",
+   "published_price_usd": 1999,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20251005194301/https://www.cience.com/pricing"
+  },
+  {
+   "provider": "CIENCE",
+   "plan_or_unit": "Recurring core after the $5,000 setup",
+   "observed_date": "2026-01-25",
+   "published_price_usd": 2499,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20260125131156/https://www.cience.com/pricing"
+  },
+  {
+   "provider": "CIENCE",
+   "plan_or_unit": "Recurring core after the $5,000 setup",
+   "observed_date": "2026-09-22",
+   "published_price_usd": 2499,
+   "billing_period": "month",
+   "source_type": "Live page, US connection",
+   "evidence_url": "https://www.cience.com/pricing"
+  },
+  {
+   "provider": "SalesRoads",
+   "plan_or_unit": "One dedicated SDR",
+   "observed_date": "2026-07-28",
+   "published_price_usd": 9950,
+   "billing_period": "4 weeks",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20260728173057/https://salesroads.com/pricing/"
+  },
+  {
+   "provider": "SalesRoads",
+   "plan_or_unit": "One dedicated SDR",
+   "observed_date": "2026-09-22",
+   "published_price_usd": 11950,
+   "billing_period": "4 weeks",
+   "source_type": "Live page, US connection",
+   "evidence_url": "https://salesroads.com/pricing/"
+  },
+  {
+   "provider": "SalesHive",
+   "plan_or_unit": "Growth: one US-based SDR, phone and email, month to month",
+   "observed_date": "2024-06-17",
+   "published_price_usd": 8000,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20240617155412/https://saleshive.com/pricing/"
+  },
+  {
+   "provider": "SalesHive",
+   "plan_or_unit": "Growth: one US-based SDR, phone and email, month to month",
+   "observed_date": "2025-12-14",
+   "published_price_usd": 8000,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20251214130848/https://saleshive.com/pricing/"
+  },
+  {
+   "provider": "SalesHive",
+   "plan_or_unit": "Growth: one US-based SDR, phone and email, month to month",
+   "observed_date": "2026-09-22",
+   "published_price_usd": null,
+   "billing_period": "month",
+   "source_type": "Live page, US connection",
+   "evidence_url": "https://saleshive.com/pricing/"
+  },
+  {
+   "provider": "Sopro",
+   "plan_or_unit": "Managed prospecting, starting figure",
+   "observed_date": "2025-06-24",
+   "published_price_usd": 3800,
+   "billing_period": "month",
+   "source_type": "Internet Archive",
+   "evidence_url": "https://web.archive.org/web/20250624032431/https://sopro.io/pricing/"
+  },
+  {
+   "provider": "Sopro",
+   "plan_or_unit": "Managed prospecting, starting figure",
+   "observed_date": "2026-09-22",
+   "published_price_usd": 3800,
+   "billing_period": "month",
+   "source_type": "Live page, US connection",
+   "evidence_url": "https://sopro.io/pricing/"
+  }
+ ]
+}

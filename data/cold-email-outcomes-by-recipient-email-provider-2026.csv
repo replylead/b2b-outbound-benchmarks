@@ -1,0 +1,16 @@
+group,contacted,share_of_contacted,replied,reply_rate,reply_rate_ci_low,reply_rate_ci_high,interested,interested_per_1000,bounced,bounce_rate,bounce_rate_ci_low,bounce_rate_ci_high
+Google Workspace,131148,0.4007,5106,0.03893,0.0379,0.03999,436,3.324,1932,0.01473,0.01409,0.0154
+Microsoft 365,142210,0.4345,2280,0.01603,0.01539,0.0167,119,0.837,2342,0.01647,0.01582,0.01714
+Security gateway,17564,0.0537,539,0.03069,0.02824,0.03334,23,1.309,921,0.05244,0.04924,0.05583
+Other hosts,35848,0.1095,1440,0.04017,0.03819,0.04225,101,2.817,1194,0.03331,0.0315,0.03522
+No MX record,284,0.0009,5,0.01761,0.00754,0.04054,1,3.521,80,0.28169,0.23256,0.33665
+"Personal mailbox (Gmail, Outlook.com, Yahoo...)",219,0.0007,4,0.01826,0.00713,0.04601,0,0.0,17,0.07763,0.04903,0.12079
+Security gateway: Proofpoint,12145,,,0.03582,0.03266,0.03927,23,,,0.01927,0.01697,0.02187
+Security gateway: Mimecast,3610,,,0.00554,0.00359,0.00854,0,,,0.15263,0.14127,0.16473
+Security gateway: Barracuda,804,,,0.04229,0.03042,0.05851,0,,,0.08582,0.06837,0.10721
+Security gateway: Sophos,506,,,0.06522,0.04681,0.09017,0,,,0.10474,0.08097,0.13447
+Security gateway: Trend Micro,255,,,0.03922,0.02144,0.07067,0,,,0.01961,0.0084,0.04507
+Security gateway: Cisco / IronPort,219,,,0.02283,0.00979,0.05232,0,,,0.0411,0.02177,0.07625
+Security gateway: Symantec / Broadcom,17,,,0.0,0.0,0.18432,0,,,0.0,0.0,0.18432
+Security gateway: Forcepoint,7,,,0.28571,0.08222,0.64107,0,,,0.0,0.0,0.35434
+Security gateway: Fortinet,1,,,0.0,0.0,0.79346,0,,,0.0,0.0,0.79346

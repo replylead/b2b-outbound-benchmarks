@@ -1,0 +1,41 @@
+{
+  "name": "Programme sensitivity of ReplyLead cold email reply benchmarks",
+  "source_snapshot_utc": "2026-08-12T20:14:17Z",
+  "analysis_published_utc": "2026-09-11T03:56:29.949405+00:00",
+  "source_url": "https://replylead.com/cold-email-benchmarks.html#programme-sensitivity",
+  "creator": "ReplyLead",
+  "question": "How much does the pooled reply rate change when one programme is omitted?",
+  "method": "Within each stated cohort, remove all campaigns from one programme, recompute 100 * summed unique replies / summed contacted leads for the remaining programmes, repeat for all seven programmes, then report the minimum and maximum.",
+  "definitions": {
+    "programme": "A client or internal programme grouping; five client and two internal programmes in the source book.",
+    "reply": "Campaign-level unique replies, including automatic replies; not positive replies or qualified outcomes.",
+    "population": "Cumulative counters at the August 12, 2026 snapshot, not a fixed monthly exposure window.",
+    "range": "A descriptive sensitivity range, not a confidence interval, a forecast or a benchmark for the US market."
+  },
+  "limitations": [
+    "Seven programmes from one operator; neither independent campaigns nor a representative market sample.",
+    "Offers, audiences, duration, repeated contacts and internal/client purpose differ.",
+    "Country, verified meetings, opportunities and revenue are unavailable in the retained campaign counters.",
+    "Raw campaign and customer identifiers are not distributed."
+  ],
+  "results": [
+    {
+      "cohort": "All sending campaigns",
+      "campaigns": 115,
+      "programmes": 7,
+      "pooled_reply_rate_percent": 2.575112601939267,
+      "leave_one_programme_out_min_percent": 2.3979845429649047,
+      "leave_one_programme_out_max_percent": 2.747049008095915,
+      "recalculations": 7
+    },
+    {
+      "cohort": "At least 500 contacted leads per campaign",
+      "campaigns": 81,
+      "programmes": 7,
+      "pooled_reply_rate_percent": 2.5484642949094023,
+      "leave_one_programme_out_min_percent": 2.3684698082691145,
+      "leave_one_programme_out_max_percent": 2.722617390527028,
+      "recalculations": 7
+    }
+  ]
+}

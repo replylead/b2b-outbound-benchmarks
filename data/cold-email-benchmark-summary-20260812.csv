@@ -1,0 +1,6 @@
+cohort,campaigns,emails_sent,contacted_leads_sum,unique_replies_sum,pooled_reply_rate_per_contact_percent,automatic_replies_included,snapshot_utc,source_url,median_campaign_reply_rate_per_contact_percent
+All sending campaigns,115,429763,242669,6249,2.575113,True,2026-08-12T20:14:17Z,https://replylead.com/cold-email-benchmarks.html,2.251639
+Campaigns with at least 500 contacted leads,81,418615,236927,6038,2.548464,True,2026-08-12T20:14:17Z,https://replylead.com/cold-email-benchmarks.html,2.123625
+"500–1,999 contacted leads",33,70313,40191,798,1.985519,True,2026-08-12T20:14:17Z,https://replylead.com/cold-email-benchmarks.html,
+"2,000–4,999 contacted leads",37,222173,123302,3317,2.690143,True,2026-08-12T20:14:17Z,https://replylead.com/cold-email-benchmarks.html,
+"5,000+ contacted leads",11,126129,73434,1923,2.618678,True,2026-08-12T20:14:17Z,https://replylead.com/cold-email-benchmarks.html,

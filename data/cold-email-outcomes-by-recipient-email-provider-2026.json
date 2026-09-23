@@ -1,0 +1,314 @@
+{
+ "name": "Cold email outcomes by recipient email provider (ReplyLead campaign book, 2026)",
+ "publisher": "ReplyLead",
+ "license": "CC BY 4.0",
+ "url": "https://replylead.com/cold-email-reply-rates-by-email-provider.html",
+ "unit": "one lead in one campaign that was sent at least one email",
+ "window": {
+  "first_campaign_created": "2026-04-01",
+  "last_campaign_created": "2026-09-21",
+  "extracted": "2026-09-23"
+ },
+ "units": 327273,
+ "campaigns": 97,
+ "groups": [
+  {
+   "group": "Google Workspace",
+   "contacted": 131148,
+   "share_of_contacted": 0.4007,
+   "replied": 5106,
+   "reply_rate": 0.03893,
+   "reply_rate_ci_low": 0.0379,
+   "reply_rate_ci_high": 0.03999,
+   "interested": 436,
+   "interested_per_1000": 3.324,
+   "bounced": 1932,
+   "bounce_rate": 0.01473,
+   "bounce_rate_ci_low": 0.01409,
+   "bounce_rate_ci_high": 0.0154
+  },
+  {
+   "group": "Microsoft 365",
+   "contacted": 142210,
+   "share_of_contacted": 0.4345,
+   "replied": 2280,
+   "reply_rate": 0.01603,
+   "reply_rate_ci_low": 0.01539,
+   "reply_rate_ci_high": 0.0167,
+   "interested": 119,
+   "interested_per_1000": 0.837,
+   "bounced": 2342,
+   "bounce_rate": 0.01647,
+   "bounce_rate_ci_low": 0.01582,
+   "bounce_rate_ci_high": 0.01714
+  },
+  {
+   "group": "Security gateway",
+   "contacted": 17564,
+   "share_of_contacted": 0.0537,
+   "replied": 539,
+   "reply_rate": 0.03069,
+   "reply_rate_ci_low": 0.02824,
+   "reply_rate_ci_high": 0.03334,
+   "interested": 23,
+   "interested_per_1000": 1.309,
+   "bounced": 921,
+   "bounce_rate": 0.05244,
+   "bounce_rate_ci_low": 0.04924,
+   "bounce_rate_ci_high": 0.05583
+  },
+  {
+   "group": "Other hosts",
+   "contacted": 35848,
+   "share_of_contacted": 0.1095,
+   "replied": 1440,
+   "reply_rate": 0.04017,
+   "reply_rate_ci_low": 0.03819,
+   "reply_rate_ci_high": 0.04225,
+   "interested": 101,
+   "interested_per_1000": 2.817,
+   "bounced": 1194,
+   "bounce_rate": 0.03331,
+   "bounce_rate_ci_low": 0.0315,
+   "bounce_rate_ci_high": 0.03522
+  },
+  {
+   "group": "No MX record",
+   "contacted": 284,
+   "share_of_contacted": 0.0009,
+   "replied": 5,
+   "reply_rate": 0.01761,
+   "reply_rate_ci_low": 0.00754,
+   "reply_rate_ci_high": 0.04054,
+   "interested": 1,
+   "interested_per_1000": 3.521,
+   "bounced": 80,
+   "bounce_rate": 0.28169,
+   "bounce_rate_ci_low": 0.23256,
+   "bounce_rate_ci_high": 0.33665
+  },
+  {
+   "group": "Personal mailbox (Gmail, Outlook.com, Yahoo...)",
+   "contacted": 219,
+   "share_of_contacted": 0.0007,
+   "replied": 4,
+   "reply_rate": 0.01826,
+   "reply_rate_ci_low": 0.00713,
+   "reply_rate_ci_high": 0.04601,
+   "interested": 0,
+   "interested_per_1000": 0.0,
+   "bounced": 17,
+   "bounce_rate": 0.07763,
+   "bounce_rate_ci_low": 0.04903,
+   "bounce_rate_ci_high": 0.12079
+  },
+  {
+   "group": "Security gateway: Proofpoint",
+   "contacted": 12145,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.03582,
+   "reply_rate_ci_low": 0.03266,
+   "reply_rate_ci_high": 0.03927,
+   "interested": 23,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.01927,
+   "bounce_rate_ci_low": 0.01697,
+   "bounce_rate_ci_high": 0.02187
+  },
+  {
+   "group": "Security gateway: Mimecast",
+   "contacted": 3610,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.00554,
+   "reply_rate_ci_low": 0.00359,
+   "reply_rate_ci_high": 0.00854,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.15263,
+   "bounce_rate_ci_low": 0.14127,
+   "bounce_rate_ci_high": 0.16473
+  },
+  {
+   "group": "Security gateway: Barracuda",
+   "contacted": 804,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.04229,
+   "reply_rate_ci_low": 0.03042,
+   "reply_rate_ci_high": 0.05851,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.08582,
+   "bounce_rate_ci_low": 0.06837,
+   "bounce_rate_ci_high": 0.10721
+  },
+  {
+   "group": "Security gateway: Sophos",
+   "contacted": 506,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.06522,
+   "reply_rate_ci_low": 0.04681,
+   "reply_rate_ci_high": 0.09017,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.10474,
+   "bounce_rate_ci_low": 0.08097,
+   "bounce_rate_ci_high": 0.13447
+  },
+  {
+   "group": "Security gateway: Trend Micro",
+   "contacted": 255,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.03922,
+   "reply_rate_ci_low": 0.02144,
+   "reply_rate_ci_high": 0.07067,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.01961,
+   "bounce_rate_ci_low": 0.0084,
+   "bounce_rate_ci_high": 0.04507
+  },
+  {
+   "group": "Security gateway: Cisco / IronPort",
+   "contacted": 219,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.02283,
+   "reply_rate_ci_low": 0.00979,
+   "reply_rate_ci_high": 0.05232,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.0411,
+   "bounce_rate_ci_low": 0.02177,
+   "bounce_rate_ci_high": 0.07625
+  },
+  {
+   "group": "Security gateway: Symantec / Broadcom",
+   "contacted": 17,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.0,
+   "reply_rate_ci_low": 0.0,
+   "reply_rate_ci_high": 0.18432,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.0,
+   "bounce_rate_ci_low": 0.0,
+   "bounce_rate_ci_high": 0.18432
+  },
+  {
+   "group": "Security gateway: Forcepoint",
+   "contacted": 7,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.28571,
+   "reply_rate_ci_low": 0.08222,
+   "reply_rate_ci_high": 0.64107,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.0,
+   "bounce_rate_ci_low": 0.0,
+   "bounce_rate_ci_high": 0.35434
+  },
+  {
+   "group": "Security gateway: Fortinet",
+   "contacted": 1,
+   "share_of_contacted": "",
+   "replied": "",
+   "reply_rate": 0.0,
+   "reply_rate_ci_low": 0.0,
+   "reply_rate_ci_high": 0.79346,
+   "interested": 0,
+   "interested_per_1000": "",
+   "bounced": "",
+   "bounce_rate": 0.0,
+   "bounce_rate_ci_low": 0.0,
+   "bounce_rate_ci_high": 0.79346
+  }
+ ],
+ "within_campaign_ratios": {
+  "Microsoft 365 vs Google Workspace": {
+   "replied": {
+    "rr": 0.38364412194819364,
+    "lo": 0.36354877480132985,
+    "hi": 0.4048502498346533,
+    "strata": 93
+   },
+   "interested": {
+    "rr": 0.41404591098643584,
+    "lo": 0.3357059286263944,
+    "hi": 0.5106672292206542,
+    "strata": 93
+   },
+   "bounced": {
+    "rr": 0.9630813794567924,
+    "lo": 0.8986066261033361,
+    "hi": 1.032182176842458,
+    "strata": 93
+   }
+  },
+  "Security gateway vs Microsoft 365 or Google Workspace": {
+   "replied": {
+    "rr": 1.1360341263512501,
+    "lo": 1.0412441373046455,
+    "hi": 1.2394533520019755,
+    "strata": 92
+   },
+   "interested": {
+    "rr": 0.550697099387435,
+    "lo": 0.3623010642115397,
+    "hi": 0.8370588033842025,
+    "strata": 92
+   },
+   "bounced": {
+    "rr": 3.5134118614262784,
+    "lo": 3.265295293869051,
+    "hi": 3.7803818022793205,
+    "strata": 92
+   }
+  }
+ },
+ "robustness_by_programme": {
+  "programme 1": {
+   "rr": 0.45703058440864497,
+   "lo": 0.41136471881425224,
+   "hi": 0.5077658475111569,
+   "strata": 36,
+   "n_pairs": 100035
+  },
+  "programme 2": {
+   "rr": 0.4826329777396485,
+   "lo": 0.44000118721259873,
+   "hi": 0.5293953697658804,
+   "strata": 32,
+   "n_pairs": 102068
+  },
+  "programme 3": {
+   "rr": 0.1173250529259674,
+   "lo": 0.10164699887132994,
+   "hi": 0.13542129326912758,
+   "strata": 11,
+   "n_pairs": 38514
+  },
+  "programme 4": {
+   "rr": 0.6022347128128617,
+   "lo": 0.5324423350429851,
+   "hi": 0.6811754540282932,
+   "strata": 13,
+   "n_pairs": 26157
+  }
+ },
+ "method": "Recipient domain MX host classified by owner with gateways first; Wilson 95% intervals; Mantel-Haenszel risk ratios across campaigns."
+}

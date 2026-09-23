@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these datasets, please cite them as below and link to the source page on replylead.com."
+title: "B2B outbound benchmarks"
+type: dataset
+authors:
+  - name: "ReplyLead"
+    website: "https://replylead.com/"
+repository-code: "https://github.com/replylead/b2b-outbound-benchmarks"
+url: "https://replylead.com/cold-email-reply-rates-by-email-provider.html"
+license: CC-BY-4.0
+date-released: "2026-09-23"
+version: "2026-09"
+keywords:
+  - cold email
+  - email deliverability
+  - Microsoft 365
+  - Google Workspace
+  - email security gateway
+  - B2B lead generation pricing
+  - SDR cost
+abstract: >-
+  First-party datasets on B2B cold email outcomes by recipient mail provider (327,273 contacted leads, 97 campaigns),
+  the receiving mail provider for about 10.2M domains in B2B contact data, a cold email reply-rate benchmark
+  (429,763 sends), B2B lead generation prices, price history and contract terms for 14 providers, and in-house
+  seller cost for the US and Canada from government wage data.

@@ -1,0 +1,82 @@
+{
+  "name": "ReplyLead cold email benchmark aggregates",
+  "snapshot_utc": "2026-08-12T20:14:17Z",
+  "analysis_published": "2026-09-10",
+  "source_url": "https://replylead.com/cold-email-benchmarks.html",
+  "population": "115 sending campaigns across five client and two internal programmes; 81 campaigns meet the 500-contact floor. Cumulative counters at the snapshot, not a monthly or full-year sample.",
+  "definitions": {
+    "reply": "Unique responding contact within a campaign; automatic replies included. Does not establish positive intent, a meeting or a sale.",
+    "contacted_leads_sum": "Sum of campaign-level contacted counts; people are not deduplicated across campaigns.",
+    "pooled_reply_rate_per_contact_percent": "100 × sum(unique replies) / sum(contacted leads) within the stated cohort. Campaigns with more contacts carry more weight.",
+    "median_campaign_reply_rate_per_contact_percent": "Unweighted median of campaign reply/contact percentages; provided for the two whole-population summaries.",
+    "size_bands": "Contact-count bands at the snapshot date, not planned send volume or randomized groups."
+  },
+  "limitations": [
+    "One operator, heterogeneous offers and audiences, repeated programmes; not a representative market sample.",
+    "Campaign size is associated with targeting, duration and other differences. These figures do not establish a volume effect or predict another campaign.",
+    "Automatic replies are included; comparisons with datasets excluding them require qualification.",
+    "No positive-reply, booking, held-meeting, opportunity or revenue outcome is measured here."
+  ],
+  "summary": [
+    {
+      "cohort": "All sending campaigns",
+      "campaigns": 115,
+      "emails_sent": 429763,
+      "contacted_leads_sum": 242669,
+      "unique_replies_sum": 6249,
+      "pooled_reply_rate_per_contact_percent": 2.575113,
+      "automatic_replies_included": true,
+      "snapshot_utc": "2026-08-12T20:14:17Z",
+      "source_url": "https://replylead.com/cold-email-benchmarks.html",
+      "median_campaign_reply_rate_per_contact_percent": 2.251639
+    },
+    {
+      "cohort": "Campaigns with at least 500 contacted leads",
+      "campaigns": 81,
+      "emails_sent": 418615,
+      "contacted_leads_sum": 236927,
+      "unique_replies_sum": 6038,
+      "pooled_reply_rate_per_contact_percent": 2.548464,
+      "automatic_replies_included": true,
+      "snapshot_utc": "2026-08-12T20:14:17Z",
+      "source_url": "https://replylead.com/cold-email-benchmarks.html",
+      "median_campaign_reply_rate_per_contact_percent": 2.123625
+    }
+  ],
+  "campaign_size_bands": [
+    {
+      "cohort": "500–1,999 contacted leads",
+      "campaigns": 33,
+      "emails_sent": 70313,
+      "contacted_leads_sum": 40191,
+      "unique_replies_sum": 798,
+      "pooled_reply_rate_per_contact_percent": 1.985519,
+      "automatic_replies_included": true,
+      "snapshot_utc": "2026-08-12T20:14:17Z",
+      "source_url": "https://replylead.com/cold-email-benchmarks.html"
+    },
+    {
+      "cohort": "2,000–4,999 contacted leads",
+      "campaigns": 37,
+      "emails_sent": 222173,
+      "contacted_leads_sum": 123302,
+      "unique_replies_sum": 3317,
+      "pooled_reply_rate_per_contact_percent": 2.690143,
+      "automatic_replies_included": true,
+      "snapshot_utc": "2026-08-12T20:14:17Z",
+      "source_url": "https://replylead.com/cold-email-benchmarks.html"
+    },
+    {
+      "cohort": "5,000+ contacted leads",
+      "campaigns": 11,
+      "emails_sent": 126129,
+      "contacted_leads_sum": 73434,
+      "unique_replies_sum": 1923,
+      "pooled_reply_rate_per_contact_percent": 2.618678,
+      "automatic_replies_included": true,
+      "snapshot_utc": "2026-08-12T20:14:17Z",
+      "source_url": "https://replylead.com/cold-email-benchmarks.html"
+    }
+  ],
+  "citation": "ReplyLead (2026), Cold Email Benchmarks 2026; cumulative counters extracted 12 August 2026; campaign-size analysis published 10 September 2026. https://replylead.com/cold-email-benchmarks.html"
+}

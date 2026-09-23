@@ -1,0 +1,285 @@
+{
+ "dataset": "ReplyLead B2B email provider share 2026-07-19",
+ "license": "CC BY 4.0",
+ "source": "https://replylead.com/b2b-email-provider-market-share.html",
+ "tables": {
+  "provider_share": [
+   {
+    "Provider": "Microsoft 365",
+    "Domains": "2,492,673",
+    "Share": "27.52%",
+    "Category": "Google or Microsoft"
+   },
+   {
+    "Provider": "Google Workspace",
+    "Domains": "2,298,481",
+    "Share": "25.37%",
+    "Category": "Google or Microsoft"
+   },
+   {
+    "Provider": "Smaller and regional hosts",
+    "Domains": "1,348,835",
+    "Share": "16.09%",
+    "Category": "Self-hosted or long tail"
+   },
+   {
+    "Provider": "Self-hosted (own domain)",
+    "Domains": "1,241,027",
+    "Share": "14.80%",
+    "Category": "Self-hosted or long tail"
+   },
+   {
+    "Provider": "Proofpoint",
+    "Domains": "307,368",
+    "Share": "3.67%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Hostinger",
+    "Domains": "138,851",
+    "Share": "1.66%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "IONOS / 1&1",
+    "Domains": "135,724",
+    "Share": "1.62%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Zoho",
+    "Domains": "97,967",
+    "Share": "1.17%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "GoDaddy",
+    "Domains": "89,040",
+    "Share": "1.06%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Mimecast",
+    "Domains": "74,566",
+    "Share": "0.89%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Barracuda",
+    "Domains": "72,239",
+    "Share": "0.86%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Rackspace",
+    "Domains": "55,032",
+    "Share": "0.66%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "OVH",
+    "Domains": "49,157",
+    "Share": "0.59%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Yahoo / AOL",
+    "Domains": "45,185",
+    "Share": "0.54%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Titan",
+    "Domains": "38,198",
+    "Share": "0.46%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "cPanel-style host",
+    "Domains": "27,371",
+    "Share": "0.33%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Yandex",
+    "Domains": "16,490",
+    "Share": "0.20%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Proton",
+    "Domains": "14,770",
+    "Share": "0.18%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Cisco / IronPort",
+    "Domains": "12,431",
+    "Share": "0.15%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Trend Micro",
+    "Domains": "11,506",
+    "Share": "0.14%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Fastmail",
+    "Domains": "11,287",
+    "Share": "0.13%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Sophos",
+    "Domains": "10,674",
+    "Share": "0.13%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Apple iCloud",
+    "Domains": "10,000",
+    "Share": "0.12%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Amazon SES / WorkMail",
+    "Domains": "7,268",
+    "Share": "0.09%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Mail.ru",
+    "Domains": "6,656",
+    "Share": "0.08%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Symantec / Broadcom",
+    "Domains": "3,247",
+    "Share": "0.04%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Hushmail",
+    "Domains": "2,093",
+    "Share": "0.03%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Bluehost / Newfold",
+    "Domains": "1,679",
+    "Share": "0.02%",
+    "Category": "Email host"
+   },
+   {
+    "Provider": "Forcepoint",
+    "Domains": "1,428",
+    "Share": "0.02%",
+    "Category": "Security gateway"
+   },
+   {
+    "Provider": "Fortinet",
+    "Domains": "11",
+    "Share": "0.00%",
+    "Category": "Security gateway"
+   }
+  ],
+  "by_company_size": [
+   {
+    "Company size": "1 to 10",
+    "Domains": "4,061,509",
+    "Gateway": "5.33%",
+    "Microsoft 365": "28.91%",
+    "Google Workspace": "28.14%",
+    "Self-hosted": "12.98%"
+   },
+   {
+    "Company size": "11 to 50",
+    "Domains": "1,150,584",
+    "Gateway": "7.89%",
+    "Microsoft 365": "37.42%",
+    "Google Workspace": "26.77%",
+    "Self-hosted": "9.12%"
+   },
+   {
+    "Company size": "51 to 250",
+    "Domains": "605,526",
+    "Gateway": "13.27%",
+    "Microsoft 365": "42.45%",
+    "Google Workspace": "22.01%",
+    "Self-hosted": "6.89%"
+   },
+   {
+    "Company size": "251 to 1,000",
+    "Domains": "173,891",
+    "Gateway": "18.06%",
+    "Microsoft 365": "40.70%",
+    "Google Workspace": "17.89%",
+    "Self-hosted": "7.72%"
+   },
+   {
+    "Company size": "Over 1,000",
+    "Domains": "100,297",
+    "Gateway": "15.75%",
+    "Microsoft 365": "34.81%",
+    "Google Workspace": "18.77%",
+    "Self-hosted": "8.99%"
+   },
+   {
+    "Company size": "Size not recorded",
+    "Domains": "2,292,695",
+    "Gateway": "2.53%",
+    "Microsoft 365": "18.12%",
+    "Google Workspace": "23.22%",
+    "Self-hosted": "23.83%"
+   }
+  ],
+  "top_shared_mx_hosts": [
+   {
+    "MX host": "xion.oxcs.net",
+    "Domains": "73,489"
+   },
+   {
+    "MX host": "antispam.mailspamprotection.com",
+    "Domains": "44,832"
+   },
+   {
+    "MX host": "mx.cloudflare.net",
+    "Domains": "46,924"
+   },
+   {
+    "MX host": "mx.stackmail.com",
+    "Domains": "20,607"
+   },
+   {
+    "MX host": "mx1.mailchannels.net",
+    "Domains": "19,154"
+   },
+   {
+    "MX host": "h-email.net",
+    "Domains": "17,389"
+   },
+   {
+    "MX host": "registrar-servers.com",
+    "Domains": "17,268"
+   },
+   {
+    "MX host": "locaweb.com.br",
+    "Domains": "16,520"
+   },
+   {
+    "MX host": "smtpin.rzone.de",
+    "Domains": "16,073"
+   },
+   {
+    "MX host": "cust.hostedemail.com",
+    "Domains": "15,466"
+   },
+   {
+    "MX host": "park-mx.above.com",
+    "Domains": "13,831"
+   }
+  ]
+ }
+}
