@@ -1,55 +1,34 @@
-# provider_share
-Provider,Domains,Share,Category
-"Microsoft 365","2,492,673","27.52%","Google or Microsoft"
-"Google Workspace","2,298,481","25.37%","Google or Microsoft"
-"Smaller and regional hosts","1,348,835","16.09%","Self-hosted or long tail"
-"Self-hosted (own domain)","1,241,027","14.80%","Self-hosted or long tail"
-"Proofpoint","307,368","3.67%","Security gateway"
-"Hostinger","138,851","1.66%","Email host"
-"IONOS / 1&1","135,724","1.62%","Email host"
-"Zoho","97,967","1.17%","Email host"
-"GoDaddy","89,040","1.06%","Email host"
-"Mimecast","74,566","0.89%","Security gateway"
-"Barracuda","72,239","0.86%","Security gateway"
-"Rackspace","55,032","0.66%","Email host"
-"OVH","49,157","0.59%","Email host"
-"Yahoo / AOL","45,185","0.54%","Email host"
-"Titan","38,198","0.46%","Email host"
-"cPanel-style host","27,371","0.33%","Email host"
-"Yandex","16,490","0.20%","Email host"
-"Proton","14,770","0.18%","Email host"
-"Cisco / IronPort","12,431","0.15%","Security gateway"
-"Trend Micro","11,506","0.14%","Security gateway"
-"Fastmail","11,287","0.13%","Email host"
-"Sophos","10,674","0.13%","Security gateway"
-"Apple iCloud","10,000","0.12%","Email host"
-"Amazon SES / WorkMail","7,268","0.09%","Email host"
-"Mail.ru","6,656","0.08%","Email host"
-"Symantec / Broadcom","3,247","0.04%","Security gateway"
-"Hushmail","2,093","0.03%","Email host"
-"Bluehost / Newfold","1,679","0.02%","Email host"
-"Forcepoint","1,428","0.02%","Security gateway"
-"Fortinet","11","0.00%","Security gateway"
-
-# by_company_size
-Company size,Domains,Gateway,Microsoft 365,Google Workspace,Self-hosted
-"1 to 10","4,061,509","5.33%","28.91%","28.14%","12.98%"
-"11 to 50","1,150,584","7.89%","37.42%","26.77%","9.12%"
-"51 to 250","605,526","13.27%","42.45%","22.01%","6.89%"
-"251 to 1,000","173,891","18.06%","40.70%","17.89%","7.72%"
-"Over 1,000","100,297","15.75%","34.81%","18.77%","8.99%"
-"Size not recorded","2,292,695","2.53%","18.12%","23.22%","23.83%"
-
-# top_shared_mx_hosts
-MX host,Domains
-"xion.oxcs.net","73,489"
-"antispam.mailspamprotection.com","44,832"
-"mx.cloudflare.net","46,924"
-"mx.stackmail.com","20,607"
-"mx1.mailchannels.net","19,154"
-"h-email.net","17,389"
-"registrar-servers.com","17,268"
-"locaweb.com.br","16,520"
-"smtpin.rzone.de","16,073"
-"cust.hostedemail.com","15,466"
-"park-mx.above.com","13,831"
+dataset_id,observation_date,population_domains,resolved_domains,category,domains,share_pct,unit,scope
+provider-summary-20260828,2026-08-28,9058780,10241042,Microsoft 365,2492673,27.516652,distinct email domain,contact-data population; not global market share
+provider-summary-20260828,2026-08-28,9058780,10241042,Google Workspace,2298481,25.372964,distinct email domain,contact-data population; not global market share
+provider-summary-20260828,2026-08-28,9058780,10241042,Other receiving environments,4267626,47.110384,distinct email domain,contact-data population; not global market share
+provider-detail-20260719,2026-07-19,8384502,9847723,Microsoft 365,2387891,28.479819,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Google Workspace,2166677,25.841451,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Smaller and regional hosts,1348835,16.08724,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Self-hosted (own domain),1241027,14.80144,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Proofpoint,307368,3.665906,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Hostinger,138851,1.656043,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,IONOS / 1&1,135724,1.618748,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Zoho,97967,1.16843,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,GoDaddy,89040,1.061959,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Mimecast,74566,0.889331,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Barracuda,72239,0.861578,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Rackspace,55032,0.656354,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,OVH,49157,0.586284,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Yahoo / AOL,45185,0.538911,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Titan,38198,0.455579,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,cPanel-style host,27371,0.326448,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Yandex,16490,0.196672,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Proton,14770,0.176158,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Cisco / IronPort,12431,0.148262,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Trend Micro,11506,0.137229,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Fastmail,11287,0.134617,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Sophos,10674,0.127306,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Apple iCloud,10000,0.119268,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Amazon SES / WorkMail,7268,0.086684,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Mail.ru,6656,0.079385,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Symantec / Broadcom,3081,0.036746,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Hushmail,2093,0.024963,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Bluehost / Newfold,1679,0.020025,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Forcepoint,1428,0.017031,distinct email domain,contact-data population; ordered historical classifier
+provider-detail-20260719,2026-07-19,8384502,9847723,Fortinet,11,0.000131,distinct email domain,contact-data population; ordered historical classifier
