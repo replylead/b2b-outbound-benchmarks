@@ -1,285 +1,520 @@
 {
- "dataset": "ReplyLead B2B email provider share 2026-07-19",
- "license": "CC BY 4.0",
- "source": "https://replylead.com/b2b-email-provider-market-share.html",
- "tables": {
-  "provider_share": [
-   {
-    "Provider": "Microsoft 365",
-    "Domains": "2,492,673",
-    "Share": "27.52%",
-    "Category": "Google or Microsoft"
-   },
-   {
-    "Provider": "Google Workspace",
-    "Domains": "2,298,481",
-    "Share": "25.37%",
-    "Category": "Google or Microsoft"
-   },
-   {
-    "Provider": "Smaller and regional hosts",
-    "Domains": "1,348,835",
-    "Share": "16.09%",
-    "Category": "Self-hosted or long tail"
-   },
-   {
-    "Provider": "Self-hosted (own domain)",
-    "Domains": "1,241,027",
-    "Share": "14.80%",
-    "Category": "Self-hosted or long tail"
-   },
-   {
-    "Provider": "Proofpoint",
-    "Domains": "307,368",
-    "Share": "3.67%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Hostinger",
-    "Domains": "138,851",
-    "Share": "1.66%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "IONOS / 1&1",
-    "Domains": "135,724",
-    "Share": "1.62%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Zoho",
-    "Domains": "97,967",
-    "Share": "1.17%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "GoDaddy",
-    "Domains": "89,040",
-    "Share": "1.06%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Mimecast",
-    "Domains": "74,566",
-    "Share": "0.89%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Barracuda",
-    "Domains": "72,239",
-    "Share": "0.86%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Rackspace",
-    "Domains": "55,032",
-    "Share": "0.66%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "OVH",
-    "Domains": "49,157",
-    "Share": "0.59%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Yahoo / AOL",
-    "Domains": "45,185",
-    "Share": "0.54%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Titan",
-    "Domains": "38,198",
-    "Share": "0.46%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "cPanel-style host",
-    "Domains": "27,371",
-    "Share": "0.33%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Yandex",
-    "Domains": "16,490",
-    "Share": "0.20%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Proton",
-    "Domains": "14,770",
-    "Share": "0.18%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Cisco / IronPort",
-    "Domains": "12,431",
-    "Share": "0.15%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Trend Micro",
-    "Domains": "11,506",
-    "Share": "0.14%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Fastmail",
-    "Domains": "11,287",
-    "Share": "0.13%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Sophos",
-    "Domains": "10,674",
-    "Share": "0.13%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Apple iCloud",
-    "Domains": "10,000",
-    "Share": "0.12%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Amazon SES / WorkMail",
-    "Domains": "7,268",
-    "Share": "0.09%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Mail.ru",
-    "Domains": "6,656",
-    "Share": "0.08%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Symantec / Broadcom",
-    "Domains": "3,247",
-    "Share": "0.04%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Hushmail",
-    "Domains": "2,093",
-    "Share": "0.03%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Bluehost / Newfold",
-    "Domains": "1,679",
-    "Share": "0.02%",
-    "Category": "Email host"
-   },
-   {
-    "Provider": "Forcepoint",
-    "Domains": "1,428",
-    "Share": "0.02%",
-    "Category": "Security gateway"
-   },
-   {
-    "Provider": "Fortinet",
-    "Domains": "11",
-    "Share": "0.00%",
-    "Category": "Security gateway"
-   }
+  "title": "ReplyLead email-provider research: dated contact-domain snapshots",
+  "version": "2026-09-25",
+  "source": "https://replylead.com/b2b-email-provider-market-share.html",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "validation": "Recomputed from retained aggregate snapshots; no new DNS scan.",
+  "limitations": [
+    "Raw database has grown to 12,915,843 rows; not a reproducible historical cohort from current rows. Validation uses retained aggregate snapshots, not a new DNS scan.",
+    "August gateway_total includes Cloudflare Email routing; do not describe it as security-only.",
+    "July firmographic join and provider snapshot differ in category subtotals; size data remains a separate exploratory artifact, not merged into provider totals.",
+    "Counts describe domains, not organizations, seats, mailboxes, email-client opens or delivery outcomes.",
+    "Different populations and classifiers prevent treating July-to-August differences as market-share movement."
   ],
-  "by_company_size": [
-   {
-    "Company size": "1 to 10",
-    "Domains": "4,061,509",
-    "Gateway": "5.33%",
-    "Microsoft 365": "28.91%",
-    "Google Workspace": "28.14%",
-    "Self-hosted": "12.98%"
-   },
-   {
-    "Company size": "11 to 50",
-    "Domains": "1,150,584",
-    "Gateway": "7.89%",
-    "Microsoft 365": "37.42%",
-    "Google Workspace": "26.77%",
-    "Self-hosted": "9.12%"
-   },
-   {
-    "Company size": "51 to 250",
-    "Domains": "605,526",
-    "Gateway": "13.27%",
-    "Microsoft 365": "42.45%",
-    "Google Workspace": "22.01%",
-    "Self-hosted": "6.89%"
-   },
-   {
-    "Company size": "251 to 1,000",
-    "Domains": "173,891",
-    "Gateway": "18.06%",
-    "Microsoft 365": "40.70%",
-    "Google Workspace": "17.89%",
-    "Self-hosted": "7.72%"
-   },
-   {
-    "Company size": "Over 1,000",
-    "Domains": "100,297",
-    "Gateway": "15.75%",
-    "Microsoft 365": "34.81%",
-    "Google Workspace": "18.77%",
-    "Self-hosted": "8.99%"
-   },
-   {
-    "Company size": "Size not recorded",
-    "Domains": "2,292,695",
-    "Gateway": "2.53%",
-    "Microsoft 365": "18.12%",
-    "Google Workspace": "23.22%",
-    "Self-hosted": "23.83%"
-   }
+  "rows": [
+    {
+      "dataset_id": "provider-summary-20260828",
+      "observation_date": "2026-08-28",
+      "population_domains": 9058780,
+      "resolved_domains": 10241042,
+      "category": "Microsoft 365",
+      "domains": 2492673,
+      "share_pct": 27.516652,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; not global market share"
+    },
+    {
+      "dataset_id": "provider-summary-20260828",
+      "observation_date": "2026-08-28",
+      "population_domains": 9058780,
+      "resolved_domains": 10241042,
+      "category": "Google Workspace",
+      "domains": 2298481,
+      "share_pct": 25.372964,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; not global market share"
+    },
+    {
+      "dataset_id": "provider-summary-20260828",
+      "observation_date": "2026-08-28",
+      "population_domains": 9058780,
+      "resolved_domains": 10241042,
+      "category": "Other receiving environments",
+      "domains": 4267626,
+      "share_pct": 47.110384,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; not global market share"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Microsoft 365",
+      "domains": 2387891,
+      "share_pct": 28.479819,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Google Workspace",
+      "domains": 2166677,
+      "share_pct": 25.841451,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Smaller and regional hosts",
+      "domains": 1348835,
+      "share_pct": 16.08724,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Self-hosted (own domain)",
+      "domains": 1241027,
+      "share_pct": 14.80144,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Proofpoint",
+      "domains": 307368,
+      "share_pct": 3.665906,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Hostinger",
+      "domains": 138851,
+      "share_pct": 1.656043,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "IONOS / 1&1",
+      "domains": 135724,
+      "share_pct": 1.618748,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Zoho",
+      "domains": 97967,
+      "share_pct": 1.16843,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "GoDaddy",
+      "domains": 89040,
+      "share_pct": 1.061959,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Mimecast",
+      "domains": 74566,
+      "share_pct": 0.889331,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Barracuda",
+      "domains": 72239,
+      "share_pct": 0.861578,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Rackspace",
+      "domains": 55032,
+      "share_pct": 0.656354,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "OVH",
+      "domains": 49157,
+      "share_pct": 0.586284,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Yahoo / AOL",
+      "domains": 45185,
+      "share_pct": 0.538911,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Titan",
+      "domains": 38198,
+      "share_pct": 0.455579,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "cPanel-style host",
+      "domains": 27371,
+      "share_pct": 0.326448,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Yandex",
+      "domains": 16490,
+      "share_pct": 0.196672,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Proton",
+      "domains": 14770,
+      "share_pct": 0.176158,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Cisco / IronPort",
+      "domains": 12431,
+      "share_pct": 0.148262,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Trend Micro",
+      "domains": 11506,
+      "share_pct": 0.137229,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Fastmail",
+      "domains": 11287,
+      "share_pct": 0.134617,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Sophos",
+      "domains": 10674,
+      "share_pct": 0.127306,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Apple iCloud",
+      "domains": 10000,
+      "share_pct": 0.119268,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Amazon SES / WorkMail",
+      "domains": 7268,
+      "share_pct": 0.086684,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Mail.ru",
+      "domains": 6656,
+      "share_pct": 0.079385,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Symantec / Broadcom",
+      "domains": 3081,
+      "share_pct": 0.036746,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Hushmail",
+      "domains": 2093,
+      "share_pct": 0.024963,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Bluehost / Newfold",
+      "domains": 1679,
+      "share_pct": 0.020025,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Forcepoint",
+      "domains": 1428,
+      "share_pct": 0.017031,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    },
+    {
+      "dataset_id": "provider-detail-20260719",
+      "observation_date": "2026-07-19",
+      "population_domains": 8384502,
+      "resolved_domains": 9847723,
+      "category": "Fortinet",
+      "domains": 11,
+      "share_pct": 0.000131,
+      "unit": "distinct email domain",
+      "scope": "contact-data population; ordered historical classifier"
+    }
   ],
-  "top_shared_mx_hosts": [
-   {
-    "MX host": "xion.oxcs.net",
-    "Domains": "73,489"
-   },
-   {
-    "MX host": "antispam.mailspamprotection.com",
-    "Domains": "44,832"
-   },
-   {
-    "MX host": "mx.cloudflare.net",
-    "Domains": "46,924"
-   },
-   {
-    "MX host": "mx.stackmail.com",
-    "Domains": "20,607"
-   },
-   {
-    "MX host": "mx1.mailchannels.net",
-    "Domains": "19,154"
-   },
-   {
-    "MX host": "h-email.net",
-    "Domains": "17,389"
-   },
-   {
-    "MX host": "registrar-servers.com",
-    "Domains": "17,268"
-   },
-   {
-    "MX host": "locaweb.com.br",
-    "Domains": "16,520"
-   },
-   {
-    "MX host": "smtpin.rzone.de",
-    "Domains": "16,073"
-   },
-   {
-    "MX host": "cust.hostedemail.com",
-    "Domains": "15,466"
-   },
-   {
-    "MX host": "park-mx.above.com",
-    "Domains": "13,831"
-   }
-  ]
- }
+  "august_intermediaries": {
+    "observation_date": "2026-08-28",
+    "population_domains": 9058780,
+    "label": "Identified gateways and routing intermediaries; not security-only",
+    "domains": 584271,
+    "categories": {
+      "Proofpoint": {
+        "domains": 315119,
+        "share_pct": 3.4786030790018083
+      },
+      "Mimecast": {
+        "domains": 76217,
+        "share_pct": 0.8413605364077723
+      },
+      "Barracuda": {
+        "domains": 71633,
+        "share_pct": 0.7907576958486684
+      },
+      "Cisco / IronPort": {
+        "domains": 12177,
+        "share_pct": 0.13442207449568264
+      },
+      "Sophos": {
+        "domains": 11196,
+        "share_pct": 0.12359280167969638
+      },
+      "Trend Micro": {
+        "domains": 11979,
+        "share_pct": 0.13223634970713496
+      },
+      "Forcepoint": {
+        "domains": 1316,
+        "share_pct": 0.014527342533983604
+      },
+      "Fortinet": {
+        "domains": 3411,
+        "share_pct": 0.03765407703907148
+      },
+      "Symantec / Broadcom": {
+        "domains": 3247,
+        "share_pct": 0.03584367872936532
+      },
+      "SpamTitan / TitanHQ": {
+        "domains": 8230,
+        "share_pct": 0.0908510859078154
+      },
+      "Hornetsecurity": {
+        "domains": 21664,
+        "share_pct": 0.23914920110655077
+      },
+      "Cloudflare Email": {
+        "domains": 46924,
+        "share_pct": 0.5179946968576342
+      },
+      "MailRoute": {
+        "domains": 1158,
+        "share_pct": 0.012783178308778887
+      }
+    }
+  },
+  "company_size_exploration": {
+    "observation_date": "2026-07-19",
+    "aggregate_generated": "2026-08-12T09:40:13Z",
+    "population_domains": 8384502,
+    "status": "Separate exploratory join; category totals differ from provider-detail snapshot. Do not combine or infer campaign outcomes.",
+    "bands": [
+      {
+        "band": "1-10",
+        "domains": 4061509,
+        "gateway": 216523,
+        "microsoft": 1174043,
+        "google": 1143074,
+        "self_hosted": 527243,
+        "gateway_pct": 5.33,
+        "microsoft_pct": 28.91,
+        "google_pct": 28.14,
+        "self_hosted_pct": 12.98
+      },
+      {
+        "band": "11-50",
+        "domains": 1150584,
+        "gateway": 90799,
+        "microsoft": 430519,
+        "google": 308006,
+        "self_hosted": 104933,
+        "gateway_pct": 7.89,
+        "microsoft_pct": 37.42,
+        "google_pct": 26.77,
+        "self_hosted_pct": 9.12
+      },
+      {
+        "band": "51-250",
+        "domains": 605526,
+        "gateway": 80362,
+        "microsoft": 257072,
+        "google": 133264,
+        "self_hosted": 41747,
+        "gateway_pct": 13.27,
+        "microsoft_pct": 42.45,
+        "google_pct": 22.01,
+        "self_hosted_pct": 6.89
+      },
+      {
+        "band": "251-1000",
+        "domains": 173891,
+        "gateway": 31406,
+        "microsoft": 70776,
+        "google": 31114,
+        "self_hosted": 13431,
+        "gateway_pct": 18.06,
+        "microsoft_pct": 40.7,
+        "google_pct": 17.89,
+        "self_hosted_pct": 7.72
+      },
+      {
+        "band": "1000+",
+        "domains": 100297,
+        "gateway": 15799,
+        "microsoft": 34916,
+        "google": 18823,
+        "self_hosted": 9013,
+        "gateway_pct": 15.75,
+        "microsoft_pct": 34.81,
+        "google_pct": 18.77,
+        "self_hosted_pct": 8.99
+      },
+      {
+        "band": "unclassified",
+        "domains": 2292695,
+        "gateway": 58030,
+        "microsoft": 415520,
+        "google": 532251,
+        "self_hosted": 546376,
+        "gateway_pct": 2.53,
+        "microsoft_pct": 18.12,
+        "google_pct": 23.22,
+        "self_hosted_pct": 23.83
+      }
+    ]
+  },
+  "correction": "This legacy URL previously mixed July and August counts under one date. Superseded by https://replylead.com/b2b-email-provider-market-share.html#cite"
 }
