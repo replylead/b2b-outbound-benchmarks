@@ -1,5 +1,7 @@
 # B2B outbound benchmarks (ReplyLead open data)
 
+This dataset is maintained by [ReplyLead](https://replylead.com).
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22920956.svg)](https://doi.org/10.5281/zenodo.22920956)
 
 First-party datasets on B2B cold email outcomes, the mail providers that receive business email, and what outbound providers charge. Each dataset is published with its method on replylead.com; this repository mirrors the files so they are easy to cite and reuse.
